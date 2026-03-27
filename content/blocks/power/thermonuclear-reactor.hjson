@@ -10,9 +10,9 @@
 powerProduction: 10
   // Requirement: Needs Liquid
   consumes:{
-    item:{
+    item:[
       copper/0.33
-    }
+    ]
     liquid: {
       liquid: water
       amount: 0.1
