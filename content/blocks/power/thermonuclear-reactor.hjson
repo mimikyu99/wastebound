@@ -4,6 +4,8 @@
   description: "no coolant is boom"
   size: 3
   health: 300
+squareSprite: false
+fuelItem: copper
   requirements: [
   copper/67
 ]
