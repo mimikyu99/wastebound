@@ -4,9 +4,15 @@
   description: "Explodes when coolant stops."
   size: 3
   health: 300
-  
+  requirements: [
+  copper/67
+]
+powerProduction: 10
   // Requirement: Needs Liquid
   consumes:{
+    item:{
+      copper/0.33
+    }
     liquid: {
       liquid: water
       amount: 0.1
@@ -17,10 +23,11 @@
   // Overheat settings
   // The block will gain heat when it CANNOT satisfy the coolant requirement
   overheatScale: 15
-  
+  unstableSpeed: 0.00111111111
+maxHeat: 30
   // Explosion settings
   explosionRadius: 6
-  explosionDamage: 300
+  explosionDamage: 1500
   
 
   category: power
