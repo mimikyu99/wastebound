@@ -12,7 +12,7 @@ powerProduction: 35
 
   consumes:{
     items:[
-      copper/0.33
+      copper
     ]
     liquid: {
       liquid: water
@@ -20,7 +20,7 @@ powerProduction: 35
       optional: false
     }
   }
-  
+  itemDuration: 240
 
 
   unstableSpeed: 0.05
