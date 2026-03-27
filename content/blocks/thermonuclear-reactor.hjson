@@ -6,7 +6,7 @@
   health: 300
   
   // Requirement: Needs Liquid
-  consumes: {
+  consumes:{
     liquid: {
       liquid: water
       amount: 0.1
@@ -24,4 +24,4 @@
   
 
   category: power
-}
+
