@@ -22,8 +22,9 @@ powerProduction: 3.5
   }
   itemDuration: 240
 
-
-  unstableSpeed: 0.05
+heating: 0.05
+heatWarmupRate: 1
+heatOutput: 10
 maxHeat: 30
 
   explosionRadius: 50
