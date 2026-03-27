@@ -1,14 +1,15 @@
 
   type: NuclearReactor
-  name: "Coolant Exploder"
-  description: "Explodes when coolant stops."
+  name: "idk some reactor"
+  description: "no coolant is boom"
   size: 3
   health: 300
   requirements: [
   copper/67
 ]
-powerProduction: 10
-  // Requirement: Needs Liquid
+liquidCapacity: 60
+powerProduction: 35
+
   consumes:{
     items:[
       copper/0.33
@@ -16,16 +17,15 @@ powerProduction: 10
     liquid: {
       liquid: water
       amount: 0.1
-      optional: false // Set to false to ensure overheating
+      optional: false
     }
   }
   
-  // Overheat settings
-  // The block will gain heat when it CANNOT satisfy the coolant requirement
+
   overheatScale: 15
   unstableSpeed: 0.00111111111
 maxHeat: 30
-  // Explosion settings
+
   explosionRadius: 6
   explosionDamage: 1500
   
