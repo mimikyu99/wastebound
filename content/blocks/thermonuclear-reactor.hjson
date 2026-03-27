@@ -1,0 +1,27 @@
+
+  type: NuclearReactor
+  name: "Coolant Exploder"
+  description: "Explodes when coolant stops."
+  size: 3
+  health: 300
+  
+  // Requirement: Needs Liquid
+  consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.1
+      optional: false // Set to false to ensure overheating
+    }
+  }
+  
+  // Overheat settings
+  // The block will gain heat when it CANNOT satisfy the coolant requirement
+  overheatScale: 15
+  
+  // Explosion settings
+  explosionRadius: 6
+  explosionDamage: 300
+  
+
+  category: power
+}
