@@ -10,9 +10,9 @@ consumes: {
   ]
 }
 craftTime: 180
-craftEffect: blastExplosion
+craftEffect: circleColorSpark
 outputItems: [ 
-  uranium-235/1
+  uranium-235/2
   depleted-uranium/4
   ]
 category: crafting
