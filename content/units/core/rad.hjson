@@ -39,7 +39,7 @@ weapons: [
 // the inaccuracy is offset by homing just to look cool
     inaccuracy: 10
     shootSound: shoot
-    ammoUseEffect: casing3
+    shootEffect: casing2
         minWarmup : 0.05
     shoot:{
   shots:2
@@ -49,8 +49,8 @@ weapons: [
       lifetime: 40
       speed: 3
       type: BasicBulletType
-      width: 8
-      height: 9
+      width: 11
+      height: 12
       damage: 3
       splashDamage: 10
       splashDamageRadius: 16
