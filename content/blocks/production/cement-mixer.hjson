@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Cement Mixer
+description: Mixes Polluted Sand and Irradiated Rock to produce Cement.
+size: 3
+scaledHealth: 80
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  cement/2
+]
+consumes: {
+  items: [
+    polluted-sand/1
+    copper/1
+  ]
+}
+craftTime: 60
+category: crafting
+requirements: [
+  copper/67
+  lead/67
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+
+drawer: DrawMulti 
+drawer: [
+{
+  type: DrawDefault
+    }
+{
+      type: DrawBlurSpin
+      suffix: -rotator
+        spinSprite: true
+        }
+]
