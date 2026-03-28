@@ -60,6 +60,8 @@ weapons: [
       backColor: 265739
       frontColor: cffed8
       trailColor: 265739
+      trailLength: 15
+      trailWidth: 8
       hitEffect: flakExplosion
       despawnEffect: blockExplosionSmoke
     }
