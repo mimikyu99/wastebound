@@ -4,7 +4,7 @@ description: Mixes Polluted Sand and Irradiated Rock to produce Cement.
 size: 3
 scaledHealth: 80
 squareSprite: false
-craftEffect: smeltsmoke
+craftEffect: blastsmoke
 outputItems: [
   cement/2
 ]
