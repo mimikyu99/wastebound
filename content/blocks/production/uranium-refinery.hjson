@@ -10,7 +10,7 @@ outputItems: [
 ]
 consumes: {
   items: [
-    sand/1
+    polluted-sand/1
     pitchblende/2
   ]
 }
