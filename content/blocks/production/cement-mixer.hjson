@@ -33,4 +33,8 @@ drawer: [
       suffix: -rotator
         spinSprite: true
         }
+   {
+      type: DrawRegion
+      suffix: -top
+    }
 ]
