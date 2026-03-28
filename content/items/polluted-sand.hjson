@@ -1,0 +1,6 @@
+name: Polluted Sand
+description: Sand that has been destroyed from years of intense radiation exposure.
+hardness: 0.7
+buildable: false
+radioactivity: 0.2
+color: c2c698
