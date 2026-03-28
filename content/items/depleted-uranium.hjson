@@ -1,0 +1,7 @@
+name: Depleted Uranium
+description: A less power efficient Uranium that's usually a byproduct. Useless unless enriched into Uranium-235.
+hardness: 1
+buildable: false
+explosiveness: 0.3
+radioactivity: 0.5
+color: 43524a
