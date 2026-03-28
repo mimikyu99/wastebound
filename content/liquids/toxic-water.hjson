@@ -1,0 +1,7 @@
+name: Toxic Water
+description: A liquid pumped from radioactive oceans or lakes. Must be cleaned before being used.
+effect: wet
+boilPoint: 0.5
+color: 8cc7be
+heatCapacity: 0.35
+gasColor: afd6d1
