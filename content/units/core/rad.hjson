@@ -30,7 +30,7 @@ weapons: [
     name: rad-pew
     mirror: false
     x: 0
-    y: 5
+    y: 0
 // reload is cool down between shots in ticks. One second is 60 ticks 
     reload: 15
 // the inaccuracy is offset by homing just to look cool
@@ -43,8 +43,10 @@ weapons: [
       speed: 4
       type: BasicBulletType
       width: 8
-      length: 9
+      height: 9
       damage: 20
+      splashDamage: 10
+      splashDamageRadius: 16
       pierceDamageFactor: 0
 // this makes it home in slightly after ¼ of a second  
       homingDelay: 15
