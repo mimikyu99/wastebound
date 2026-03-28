@@ -1,20 +1,20 @@
 
   type: NuclearReactor
-  name: "idk some reactor"
-  description: "no coolant is boom"
+  name: Thermonuclear Reactor
+  description: Converts energy produced by nuclear fission into usable electricity. Violently explodes if coolant is missing.
   size: 3
-  health: 300
+  health: 1000
 squareSprite: false
-fuelItem: copper
+fuelItem: uranium-235
   requirements: [
   copper/67
 ]
 liquidCapacity: 60
-powerProduction: 3.5
+powerProduction: 25
 
   consumes:{
     items:[
-      copper/1
+      uranium-235/1
     ]
     liquid: water/0.1
   }
@@ -28,7 +28,7 @@ heatOutput: 10
 maxHeat: 30
 
   explosionRadius: 50
-  explosionDamage: 1500
+  explosionDamage: 6000
   
 
   category: power
