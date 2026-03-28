@@ -1,0 +1,7 @@
+name: Uranium-235
+description: One of Uranium's isotopes, extremely radioactive and excellent at producing power via reactors.
+hardness: 1
+buildable: false
+explosiveness: 0.5
+radioactivity: 1.5
+color: 65d270
