@@ -1,0 +1,12 @@
+type: Floor
+name: Shallow Toxic Water
+speedMultiplier: 0.5
+variants: 3
+status: wet
+statusDuration: 10
+liquidDrop: toxic-water
+isLiquid: true
+cacheLayer: water
+liquidMultiplier: 1.5
+albedo: 0.9
+supportsOverlay: true
