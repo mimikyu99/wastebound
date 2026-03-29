@@ -1,0 +1,28 @@
+type: BurstDrill
+name: Intermediate Extractor
+description: Shreds the underground utilizing controlled explosion, bringing rarer ores back to the surface. Extra stable thanks to Cement.
+size: 3
+category: production
+hardnessDrillMultiplier: 50
+drillTime: 270
+hasPower: false
+tier: 3
+shake: 1
+itemCapacity: 45
+hasLiquids: false
+researchCostMultiplier: 0.5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 14
+  strokeFrom: 1.1
+  strokeTo: 0.2
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: [
+  irradiated-rock/80
+  cement/40
+]
+squareSprite: false
