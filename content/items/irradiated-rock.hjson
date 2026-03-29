@@ -1,0 +1,6 @@
+name: Irradiated Rock
+description: Stone that has been destroyed from years of intense radiation exposure.
+hardness: 1.4
+buildable: true
+radioactivity: 0.2
+color: 92a9a8
