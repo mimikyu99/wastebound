@@ -4,6 +4,9 @@ description: Core of the base. Armored and stores a medium amount of items.
 requirements: [
   copper/1
 ]
+solid: false
+buildVisibility: shown
+placeableLiquid: true
 isFirstTier: true
 size: 3
 squareSprite: false
