@@ -11,7 +11,7 @@ outputItems: [
 consumes: {
   items: [
     polluted-sand/1
-    copper/1
+    irradiated-rock/1
   ]
 }
 craftTime: 60
