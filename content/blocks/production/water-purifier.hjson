@@ -27,6 +27,6 @@ drawer: {
 consumes: {
   liquid: toxic-water/0.1
 }
-craftTime: 6
+craftTime: 60
 craftEffect: none
 outputLiquid: water/0.1
