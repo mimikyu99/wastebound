@@ -11,15 +11,3 @@ requirements: [
 ]
 pumpAmount: 0.05
 researchCostMultiplier: 0.5
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
