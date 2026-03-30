@@ -19,10 +19,6 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
-      padding: 3
-    }
-    {
       type: DrawDefault
     }
   ]
