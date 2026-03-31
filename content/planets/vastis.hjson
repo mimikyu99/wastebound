@@ -94,7 +94,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: vastis
    speed: 1.21
-   radius: 0.3
+   radius: 0.15
    divisions: 4
    coarseness: 0.42
    color: 8dd8918c
@@ -107,26 +107,13 @@ cloudMesh: [
    type: HexSkyMesh
    planet: vastis
    speed: 1.01
-   radius: 0.31
+   radius: 0.2
    divisions: 4
    coarseness: 0.42
    color: 8dd8918c
    octaves: 3
    persistence: 0.4
    scl: 0.9
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: vastis
-   speed: 0.891
-   radius: 0.39
-   divisions: 4
-   coarseness: 0.42
-   color: 8dd8918c
-   octaves: 3
-   persistence: 0.5
-   scl: 1.1
    thresh: 0.6
   }
 ]
@@ -156,12 +143,13 @@ orbitSpacing: 1
 radius: 1.2
 minZoom: 1
 drawOrbit: true
+alwaysUnlocked: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
 sectorSeed: 14513
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: 7d977f
 iconColor: 7d977f
