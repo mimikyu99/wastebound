@@ -151,6 +151,7 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
+generator:SerpuloPlanetGenerator
 atmosphereColor: 7d977f
 iconColor: 7d977f
 hasAtmosphere: true
