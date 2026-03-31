@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Water Purifier
 description: Cleans up Toxic water, purifying it from any toxic waste or radioactive residues left behind.
-size: 2
+size: 3
 squareSprite: false
 category: crafting
 requirements: [
@@ -25,8 +25,9 @@ drawer: {
   ]
 }
 consumes: {
-  liquid: toxic-water/0.1
+  liquid: toxic-water/0.15
+  power: 0.5
 }
 craftTime: 60
 craftEffect: none
-outputLiquid: water/0.1
+outputLiquid: water/0.15
