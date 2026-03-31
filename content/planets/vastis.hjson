@@ -6,7 +6,7 @@ mesh: [
     //toxic water
     type: NoiseMesh
     planet: vastis
-    divisions: 5
+    divisions: 4
     seed: 7
     radius: 1.229
     color1: 6c978c
@@ -56,7 +56,7 @@ mesh: [
     //indium
     type: NoiseMesh
     planet: vastis
-    divisions: 5
+    divisions: 4
     seed: 19
     radius: 1.247
     color1: 353f47
@@ -95,7 +95,8 @@ cloudMesh: [
    planet: vastis
    speed: 1.21
    radius: 0.1
-   divisions: 3
+   divisions: 4
+   coarseness: 0.42
    color: 8dd8918c
    octaves: 3
    persistence: 0.3
@@ -108,6 +109,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 4
+   coarseness: 0.42
    color: 8dd8918c
    octaves: 3
    persistence: 0.4
@@ -119,7 +121,8 @@ cloudMesh: [
    planet: vastis
    speed: 0.891
    radius: 0.091
-   divisions: 3
+   divisions: 4
+   coarseness: 0.42
    color: 8dd8918c
    octaves: 3
    persistence: 0.5
