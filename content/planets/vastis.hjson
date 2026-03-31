@@ -143,9 +143,9 @@ generator: {
   ferricChance: 0.26
 }
 orbitRadius: 70
-sectorSize: 1
+sectorSize: 2
 allowLaunchSchematics: true
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: false
 startSector: 0
@@ -164,7 +164,7 @@ atmosphereColor: 7d977f
 iconColor: 7d977f
 hasAtmosphere: true
 allowWaveSimulation: true
-clearSectorOnLose: true
+clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
 defaultCore: core-flux
