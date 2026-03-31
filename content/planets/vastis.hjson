@@ -18,7 +18,7 @@ mesh: [
     //irradiated rock
     type: NoiseMesh
     planet: vastis
-    divisions: 5
+    divisions: 4
     radius: 1.22
     seed: 94
     color1: 848989
@@ -30,7 +30,7 @@ mesh: [
     //polluted sand
     type: NoiseMesh
     planet: vastis
-    divisions: 6
+    divisions: 4
     seed: 101
     radius: 1.2441
     color1: aba47c
@@ -43,7 +43,7 @@ mesh: [
     type: NoiseMesh
     planet: vastis
     seed: 69
-    divisions: 5
+    divisions: 4
     color1: 506b58
     color2: 283d35
     radius: 1.212
@@ -68,7 +68,7 @@ mesh: [
     //more indium
     type: NoiseMesh
     planet: vastis
-    divisions: 6
+    divisions: 4
     seed: 61
     radius: 1.248
     color1: 29293a
@@ -80,7 +80,7 @@ mesh: [
     //mud
     type: NoiseMesh
     planet: vastis
-    divisions: 6
+    divisions: 4
     seed: 17
     radius: 1.2514
     color1: 4b3e32
@@ -95,7 +95,7 @@ cloudMesh: [
    planet: vastis
    speed: 1.21
    radius: 0.1
-   divisions: 6
+   divisions: 3
    color: 8dd891
    octaves: 3
    persistence: 0.3
@@ -107,7 +107,7 @@ cloudMesh: [
    planet: vastis
    speed: 1.01
    radius: 0.11
-   divisions: 6
+   divisions: 4
    color: 8dd891
    octaves: 3
    persistence: 0.4
@@ -119,7 +119,7 @@ cloudMesh: [
    planet: vastis
    speed: 0.891
    radius: 0.091
-   divisions: 6
+   divisions: 3
    color: 8dd891
    octaves: 3
    persistence: 0.5
