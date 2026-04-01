@@ -1,0 +1,13 @@
+type: Junction
+name: Indium Confluence
+description: Allows for crossing two ducts. 
+health: 65
+size: 1
+speed: 38
+requirements: [
+  indium/4
+]
+squareSprite: false
+category: distribution
+research: indium-duct
+researchCostMultiplier: 0.5
