@@ -11,5 +11,5 @@ category: distribution
 research: indium-confluence
 squareSprite: false
 range: 5
-speed: 10
+speed: 60
 researchCostMultiplier: 0.5
