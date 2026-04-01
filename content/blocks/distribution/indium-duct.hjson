@@ -10,4 +10,4 @@ health: 45
 requirements: [
   indium/1
 ]
-//junctionReplacement: indium-confluence
+junctionReplacement: indium-confluence
