@@ -1,8 +1,10 @@
 type: CoreBlock
 name: Core: Flux
+armor: 5
 description: Core of the base. Armored and stores a medium amount of items.
 requirements: [
-  copper/1
+  indium/1600
+  cement/1000
 ]
 solid: false
 buildVisibility: shown
@@ -16,3 +18,9 @@ health: 1650
 itemCapacity: 4500
 unitCapModifier: 8
 category: effect
+research: {
+  planet: vastis
+  root: true
+  name: Vastis
+  requiresUnlock: false
+}
