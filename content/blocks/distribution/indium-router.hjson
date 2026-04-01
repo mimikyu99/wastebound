@@ -1,0 +1,14 @@
+type: Router
+name: Indium Router
+description: Made of Indium. Distributes input items from ducts to three directions equally. 
+size: 1
+speed: 18
+health: 110
+itemCapacity: 3
+requirements: [
+  indium/3
+]
+squareSprite: false
+category: distribution
+research: indium-confluence
+researchCostMultiplier: 0.5
