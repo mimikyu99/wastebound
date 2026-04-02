@@ -75,8 +75,8 @@ ammoTypes: {
     hitEffect: explosion
     despawnEffect: pulverizeMedium
     type: BasicBulletType
-    speed: 6
-    lifetime: 15
+    speed: 4.5
+    lifetime: 21
     damage: 8
     homingPower: 3
     pierce: false
@@ -100,7 +100,7 @@ ammoTypes: {
      type: BasicBulletType
      speed: 2
      damage: 10
-     lifetime: 30
+     lifetime: 15
      homingPower: 5
      width: 5
      height: 8
