@@ -17,9 +17,10 @@ consumes: {
 craftTime: 60
 category: crafting
 requirements: [
-  copper/67
-  lead/67
+  indium/80
 ]
+research: core-flux
+researchCostMultiplier: 0.5
 ambientSound: grinding
 ambientSoundVolume: 0.08
 
