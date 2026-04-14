@@ -7,6 +7,7 @@ mesh: [
     type: HexMesh
     planet: vastis
     divisions: 4
+    scale: 0.42
     seed: 7
     radius: 1.229
     color1: 6c978c
@@ -20,6 +21,7 @@ mesh: [
     planet: vastis
     divisions: 4
     radius: 1.22
+    scale: 0.42
     seed: 94
     color1: 848989
     color2: 575c60
@@ -33,6 +35,7 @@ mesh: [
     planet: vastis
     divisions: 4
     seed: 101
+    scale: 0.42
     radius: 1.2441
     color1: aba47c
     color2: 735e4a
@@ -45,6 +48,7 @@ mesh: [
     type: HexMesh
     planet: vastis
     seed: 69
+    scale: 0.42
     divisions: 4
     color1: 506b58
     color2: 283d35
@@ -61,6 +65,7 @@ mesh: [
     planet: vastis
     divisions: 4
     seed: 19
+    scale: 0.42
     radius: 1.247
     color1: 353f47
     color2: 232333
@@ -74,6 +79,7 @@ mesh: [
     planet: vastis
     divisions: 4
     seed: 61
+    scale: 0.42
     radius: 1.248
     color1: 29293a
     color2: 373740
@@ -87,6 +93,7 @@ mesh: [
     planet: vastis
     divisions: 4
     seed: 17
+    scale: 0.42
     radius: 1.2514
     color1: 4b3e32
     color2: 2a1f19
