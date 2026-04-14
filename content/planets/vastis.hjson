@@ -4,7 +4,7 @@ alwaysUnlocked: true
 mesh: [
  {
     //toxic water
-    type: HexMesh
+    type: NoiseMesh
     planet: vastis
     divisions: 4
     scale: 0.42
@@ -17,7 +17,7 @@ mesh: [
   }
   {
     //irradiated rock
-    type: HexMesh
+    type: NoiseMesh
     planet: vastis
     divisions: 4
     radius: 1.22
@@ -31,7 +31,7 @@ mesh: [
   }
   {
     //polluted sand
-    type: HexMesh
+    type: NoiseMesh
     planet: vastis
     divisions: 4
     seed: 101
@@ -45,7 +45,7 @@ mesh: [
   }
   {
     //radioactive bs
-    type: HexMesh
+    type: NoiseMesh
     planet: vastis
     seed: 69
     scale: 0.42
@@ -61,7 +61,7 @@ mesh: [
   }
   {
     //indium
-    type: HexMesh
+    type: NoiseMesh
     planet: vastis
     divisions: 4
     seed: 19
@@ -75,7 +75,7 @@ mesh: [
   }
   {
     //more indium
-    type: HexMesh
+    type: NoiseMesh
     planet: vastis
     divisions: 4
     seed: 61
@@ -89,7 +89,7 @@ mesh: [
   }
   {
     //mud
-    type: HexMesh
+    type: NoiseMesh
     planet: vastis
     divisions: 4
     seed: 17
