@@ -4,7 +4,7 @@ alwaysUnlocked: true
 mesh: [
  {
     //toxic water
-    type: NoiseMesh
+    type: HexMesh
     planet: vastis
     divisions: 4
     seed: 7
@@ -13,10 +13,11 @@ mesh: [
     color2: 425b5e
     octaves: 3.7
     persistence: 1.1
+    coarseness: 0.42
   }
   {
     //irradiated rock
-    type: NoiseMesh
+    type: HexMesh
     planet: vastis
     divisions: 4
     radius: 1.22
@@ -25,10 +26,11 @@ mesh: [
     color2: 575c60
     octaves: 3.7
     persistence: 0.6
+    coarseness: 0.42
   }
   {
     //polluted sand
-    type: NoiseMesh
+    type: HexMesh
     planet: vastis
     divisions: 4
     seed: 101
@@ -37,10 +39,11 @@ mesh: [
     color2: 735e4a
     octaves: 5.1
     persistence: 0.8
+    coarseness: 0.42
   }
   {
     //radioactive bs
-    type: NoiseMesh
+    type: HexMesh
     planet: vastis
     seed: 69
     divisions: 4
@@ -51,10 +54,11 @@ mesh: [
     persistence: 1
     scale: 0.75
     mag: 1
+    coarseness: 0.42
   }
   {
     //indium
-    type: NoiseMesh
+    type: HexMesh
     planet: vastis
     divisions: 4
     seed: 19
@@ -63,10 +67,11 @@ mesh: [
     color2: 232333
     octaves: 4.5
     persistence: 1.1
+    coarseness: 0.42
   }
   {
     //more indium
-    type: NoiseMesh
+    type: HexMesh
     planet: vastis
     divisions: 4
     seed: 61
@@ -75,10 +80,11 @@ mesh: [
     color2: 373740
     octaves: 4.5
     persistence: 1.1
+    coarseness: 0.42
   }
   {
     //mud
-    type: NoiseMesh
+    type: HexMesh
     planet: vastis
     divisions: 4
     seed: 17
@@ -87,6 +93,7 @@ mesh: [
     color2: 2a1f19
     octaves: 5.7
     persistence: 0.9
+    coarseness: 0.42
   }
 ]
 cloudMesh: [
