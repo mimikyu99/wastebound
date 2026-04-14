@@ -13,7 +13,6 @@ mesh: [
     color2: 425b5e
     octaves: 3.7
     persistence: 1.1
-    coarseness: 0.42
   }
   {
     //irradiated rock
@@ -26,7 +25,7 @@ mesh: [
     color2: 575c60
     octaves: 3.7
     persistence: 0.6
-    coarseness: 0.42
+    
   }
   {
     //polluted sand
@@ -39,7 +38,7 @@ mesh: [
     color2: 735e4a
     octaves: 5.1
     persistence: 0.8
-    coarseness: 0.42
+    
   }
   {
     //radioactive bs
@@ -54,7 +53,7 @@ mesh: [
     persistence: 1
     scale: 0.75
     mag: 1
-    coarseness: 0.42
+    
   }
   {
     //indium
@@ -67,7 +66,7 @@ mesh: [
     color2: 232333
     octaves: 4.5
     persistence: 1.1
-    coarseness: 0.42
+    
   }
   {
     //more indium
@@ -80,7 +79,7 @@ mesh: [
     color2: 373740
     octaves: 4.5
     persistence: 1.1
-    coarseness: 0.42
+    
   }
   {
     //mud
@@ -93,7 +92,7 @@ mesh: [
     color2: 2a1f19
     octaves: 5.7
     persistence: 0.9
-    coarseness: 0.42
+    
   }
 ]
 cloudMesh: [
