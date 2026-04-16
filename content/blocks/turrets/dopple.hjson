@@ -126,6 +126,7 @@ drawer: {
       alternate: true
       under: false
       recoilIndex: 1
+      recoilTime: 18
       progress:{
       type: recoil
       ops:[
