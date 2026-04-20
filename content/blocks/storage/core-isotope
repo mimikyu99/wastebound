@@ -1,0 +1,29 @@
+type: CoreBlock
+name: Core: Isotope
+armor: 12
+description: Core of the base. Armored and stores a higher amount of items.
+requirements: [
+  indium/3200
+  cement/2000
+  osmium/1500
+]
+solid: false
+buildVisibility: shown
+placeableLiquid: true
+isFirstTier: false
+size: 4
+squareSprite: false
+alwaysUnlocked: false
+research:{
+parent: core-flux
+requirements:[
+  indium/5000
+  cement/4000
+  osmium/3000
+  ]
+  }
+unitType: rad
+health: 3450
+itemCapacity: 7500
+unitCapModifier: 16
+category: effect
