@@ -64,6 +64,33 @@ weapons: [
       despawnEffect: blockExplosionSmoke
     }
   }
+    {
+    x: 1.7
+    y: 1
+    name: fission-swish
+    mirror: true
+    alternate: true
+    reload: 48
+    rotate: false
+    shootSound: missile
+    shoot: {
+      shots: 3
+      shotDelay: 5
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 3
+      lifetime: 40
+      damage: 9
+      width: 3
+      height: 6
+      trailWidth: 1
+      trailLength: 4
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
 ]
 
 // because it's the core unit
