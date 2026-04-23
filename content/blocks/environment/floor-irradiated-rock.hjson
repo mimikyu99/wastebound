@@ -1,3 +1,4 @@
 type: Floor
 name: Irradiated Rock
 itemDrop: irradiated-rock
+playerUnmineable: true
