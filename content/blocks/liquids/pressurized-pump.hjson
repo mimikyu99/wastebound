@@ -4,7 +4,13 @@ description: Pumps liquid from liquid tiles using diffferences in atmospheric pr
 size: 2
 category: liquid
 squareSprite: false
-research: core-flux
+research:{
+  parent: core-flux
+  requirements:[
+    indium/80
+    cement/90
+  ]
+}
 requirements: [
   indium/24
   cement/12
