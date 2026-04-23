@@ -1,0 +1,105 @@
+type: mech
+name: Float
+description: Fires missiles and two lasers at enemies. Cannot cross terrain.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 0f1718
+speed: 1.6666666666667
+rotateSpeed: 5
+accel: 0.095
+groundLayer: 60
+health: 350
+armor: 3
+hitSize: 8
+canDrown: false
+researchCostMultiplier: 1.5
+//research: {
+//  parent: 
+//  objectives: [
+    
+//  ]
+//}
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -7.6
+    interval: 4
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -7.6
+    radius: 1.5
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  {
+    x: 3.7
+    y: -2
+    name: float-missile
+    mirror: true
+    alternate: true
+    reload: 48
+    rotate: false
+    shootSound: shootMissile
+    shoot: {
+      shots: 3
+      shotDelay: 5
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 5
+      lifetime: 40
+      damage: 3
+      width: 3
+      height: 6
+      trailWidth: 1
+      trailLength: 4
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+    {
+    x: 8.4
+    y: -1
+    mirror: true
+    name: float-lazer
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: laserbeam
+    shootY: 1.5
+    bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
+      length: 50
+      width: 1
+      drawFlare: false
+      damageInterval: 15
+      damage: 4
+    
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    }
+}
+]
