@@ -50,4 +50,11 @@ drawer: {
   
 
   category: power
-
+research:{
+  parent: bituminous-burner
+  requirements:[
+    indium/4500
+    cement/7500
+    osmium/3000
+  ]
+}
