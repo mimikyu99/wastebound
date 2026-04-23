@@ -21,3 +21,11 @@ requirements: [
   cement/350
   osmium/50
 ]
+research:{
+  parent: uranium-refinery
+  requirements:[
+    indium/2500
+    cement/2000
+    osmium/1000
+  ]
+}
