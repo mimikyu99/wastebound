@@ -56,14 +56,14 @@ weapons: [
     rotate: false
     shootSound: shootMissile
     shoot: {
-      shots: 3
+      shots: 2
       shotDelay: 5
     }
     bullet: {
       type: MissileBulletType
       speed: 5
       lifetime: 40
-      damage: 3
+      damage: 9
       width: 3
       height: 6
       trailWidth: 1
@@ -74,14 +74,14 @@ weapons: [
     }
   }
     {
-    x: 8.4
+    x: -8.4
     y: -1
-    mirror: true
-    name: float-lazer
+    mirror: false
+    name: float-lazer-l
     continuous: true
     alwaysContinuous: true
     ejectEffect: none
-    shootSound: laserbeam
+    shootSound: beamPlasmaSmall
     shootY: 1.5
     bullet: {
       collides: true
@@ -89,9 +89,38 @@ weapons: [
       collidesAir: true
       collidesGround: true
       type: ContinuousFlameBulletType
-      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
+      colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
       length: 50
-      width: 1
+      width: 1.5
+      drawFlare: false
+      damageInterval: 15
+      damage: 4
+    
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    }
+}
+    {
+    x: 8.4
+    y: -1
+    mirror: false
+    name: float-lazer-r
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: beamPlasmaSmall
+    shootY: 1.5
+    bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
+      length: 50
+      width: 1.5
       drawFlare: false
       damageInterval: 15
       damage: 4
