@@ -23,7 +23,7 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
-outlineColor: 42413e
+outlineColor: 0f1718
 targetAir: false
 targetGround: true
 reload: 60
