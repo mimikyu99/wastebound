@@ -55,7 +55,7 @@ weapons: [
     reload: 30
     rotate: false
     shootSound: shootMissile
-    inaccuracy: 90
+    inaccuracy: 40
     shoot: {
       shots: 2
       shotDelay: 5
@@ -63,12 +63,12 @@ weapons: [
     bullet: {
       type: MissileBulletType
     
-      speed: 5
-      lifetime: 40
+      speed: 3
+      lifetime: 35
       homingDelay: 5
       homingPower: 0.8
-      damage: 9
-      width: 3
+      damage: 4
+      width: 4
       height: 6
       trailWidth: 1
       trailLength: 4
@@ -94,7 +94,7 @@ weapons: [
       collidesGround: true
       type: ContinuousFlameBulletType
       colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
-      length: 85
+      length: 40
       width: 1
       drawFlare: false
       damageInterval: 15
@@ -123,7 +123,7 @@ weapons: [
       collidesGround: true
       type: ContinuousFlameBulletType
       colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
-      length: 85
+      length: 40
       width: 1
       drawFlare: false
       damageInterval: 15
