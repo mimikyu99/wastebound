@@ -52,17 +52,21 @@ weapons: [
     name: float-missile
     mirror: true
     alternate: true
-    reload: 48
+    reload: 30
     rotate: false
     shootSound: shootMissile
+    inaccuracy: 90
     shoot: {
       shots: 2
       shotDelay: 5
     }
     bullet: {
       type: MissileBulletType
+    
       speed: 5
       lifetime: 40
+      homingDelay: 5
+      homingPower: 0.8
       damage: 9
       width: 3
       height: 6
@@ -81,7 +85,7 @@ weapons: [
     continuous: true
     alwaysContinuous: true
     ejectEffect: none
-    shootSound: beamPlasmaSmall
+    shootSound: beamHeal
     shootY: 1.5
     bullet: {
       collides: true
@@ -90,8 +94,8 @@ weapons: [
       collidesGround: true
       type: ContinuousFlameBulletType
       colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
-      length: 50
-      width: 1.5
+      length: 85
+      width: 1
       drawFlare: false
       damageInterval: 15
       damage: 4
@@ -110,7 +114,7 @@ weapons: [
     continuous: true
     alwaysContinuous: true
     ejectEffect: none
-    shootSound: beamPlasmaSmall
+    shootSound: beamHeal
     shootY: 1.5
     bullet: {
       collides: true
@@ -119,8 +123,8 @@ weapons: [
       collidesGround: true
       type: ContinuousFlameBulletType
       colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
-      length: 50
-      width: 1.5
+      length: 85
+      width: 1
       drawFlare: false
       damageInterval: 15
       damage: 4
