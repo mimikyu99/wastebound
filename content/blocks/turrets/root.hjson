@@ -1,0 +1,63 @@
+type: ItemTurret
+name: Root
+description: Fires spreads of artillery shells at enemies. Stronger when hitting enemies while close.
+size: 2
+category: turret
+research: {
+  parent: dopple
+  requirements: [
+    indium/350
+    cement/80
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: shootArtillerySmall
+shootSoundVolume: 0.7
+requirements: [
+  indium/80
+  cement/40
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 42413e
+targetAir: false
+targetGround: true
+reload: 60
+range: 160
+velocityRnd: 0.12
+inaccuracy: 8
+shoot: {
+  shots: 5
+  shotDelay: 0.5
+}
+ammoTypes: {
+  cement: {
+    frontColor: dce2e2
+    backColor: adc4cc
+    trailColor: adc4cc
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 8
+    splashDamageRadius: 8
+  }
+  depleted-uranium: {
+    frontColor: cff0dd
+    backColor: a3dabb
+    trailColor: a3dabb
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 13
+    splashDamageRadius: 12
+  }
+}
+rotate: false
