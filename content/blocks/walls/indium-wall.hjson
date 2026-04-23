@@ -1,1 +1,17 @@
-
+type: Wall
+name: Indium Wall
+description: A wall made from Indium. Protects allied structures from damage.
+size: 1
+health: 365
+category: defense
+squareSprite: false
+requirements: [
+  indium/6
+] 
+researchCostMultiplier: 0.05
+research:{
+  parent: core-flux
+  requirements:[
+     indium/100
+  ]
+}
