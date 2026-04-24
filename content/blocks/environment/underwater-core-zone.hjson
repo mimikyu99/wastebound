@@ -3,3 +3,4 @@ name: Underwater Core Zone
 placeableLiquid: true
 allowCorePlacement: true
 isLiquid: true
+variants: 0
