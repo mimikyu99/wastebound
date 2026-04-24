@@ -1,0 +1,6 @@
+type: Floor
+name: Underwater Core Zone
+placeableLiquid: true
+environments: [ water, deepwater ]
+canBuildCore: true
+  
