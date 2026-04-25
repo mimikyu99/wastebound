@@ -1,0 +1,63 @@
+type: legs
+name: Nettle
+description: A small and relatively nimble "spider" with two legs. Shoots bullets at enemies.
+speed: 0.6
+health: 450
+armor: 2
+flying: false
+legExtension: -2.5
+legMoveSpace: 0.9
+hovering: false
+isEnemy: false
+legCount: 2
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+outlineColor: 0f1718
+hitSize: 6
+researchCostMultiplier: 1.5
+stepSound: walkerStepTiny
+weapons: [
+  {
+// change the weapon name to (your unit's name)-weapon 
+    name: nettle-gun
+    mirror: true
+    alternate: true
+    rotate: true
+    x: 4
+    y: 1
+// reload is cool down between shots in ticks. One second is 60 ticks 
+    reload: 30
+// the inaccuracy is offset by homing just to look cool
+    inaccuracy: 10
+    shootSound: shoot
+    shootEffect: casing2
+        minWarmup : 0.05
+  
+    bullet: {
+      lifetime: 35
+      speed: 3
+      type: BasicBulletType
+      width: 7
+      height: 8
+      damage: 9
+      pierceDamageFactor: 0
+// this makes it home in slightly after ¼ of a second  
+      homingDelay: 15
+      homingPower: 0.3
+      backColor: 855c4e
+      frontColor: efccbf
+      trailColor: 855c4e
+      trailLength: 8
+      trailWidth: 1.5
+      hitEffect: flakExplosion
+      despawnEffect: blockExplosionSmoke
+    }
+}
+]
+research: {
+  parent: core-flux
+  objectives: [
+    osmium
+  ]
+}
