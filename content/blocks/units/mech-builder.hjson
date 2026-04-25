@@ -1,0 +1,36 @@
+type: UnitFactory
+name: Mech Builder
+description: Utilizes materials and power to fabricate a Nettle.
+size: 3
+health: 400
+configurable: false
+requirements: [
+  indium/250
+  cement/180
+  osmium/80
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: nettle
+    requirements: [
+      indium/45
+      cement/30
+      bituminous-coal/25
+    ]
+    time: 1500
+  }
+]
+consumes: {
+  power: 1.5
+  liquid: water/0.5
+}
+research: {
+  parent: core-flux
+}
+researchCost: [
+  indium/800
+  cement/450
+  osmium/250
+]
