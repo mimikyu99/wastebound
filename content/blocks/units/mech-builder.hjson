@@ -15,8 +15,7 @@ plans: [
     type: FactoryUnitPlan
     unit: nettle
     requirements: [
-      indium/45
-      cement/30
+      indium/30
       bituminous-coal/25
     ]
     time: 1500
@@ -24,7 +23,7 @@ plans: [
 ]
 consumes: {
   power: 1.5
-  liquid: water/0.5
+  liquid: water/0.3
 }
 research: {
   parent: core-flux
