@@ -1,0 +1,16 @@
+type: Conduit
+category: liquid
+name: Pressure Channel
+description: Moves liquids utilizing consistently placed vacuums.
+requirements: [
+  cement/2
+]
+health: 65
+//junctionReplacement: pressure-junction
+//rotBridgeReplacement: pressure-bridge
+underBullets: true
+solid: false
+research: pressurized-pump
+researchCost: [
+  cement/4
+]
