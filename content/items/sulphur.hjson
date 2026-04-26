@@ -1,0 +1,7 @@
+name: Sulphur
+description: Has a distinct rotten egg smell. Can be processed and mixed with chromium.
+hardness: 1.9
+buildable: true
+explosiveness: 0
+radioactivity: 0
+color: dad181
