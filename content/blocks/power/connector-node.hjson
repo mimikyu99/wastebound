@@ -1,0 +1,17 @@
+type: BeamNode
+name: Connector Node
+description: Shoots beams distributing electricity across various machines.
+health: 65
+range: 8
+size: 1
+squareSprite: false
+researchCost: [
+  indium/10
+]
+category: power
+research: bituminous-burner
+requirements: [
+  indium/5
+]
+laserColor1: d9e0a2ff
+laserColor2: cfbe70ff
