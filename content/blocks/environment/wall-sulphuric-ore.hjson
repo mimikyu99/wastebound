@@ -1,0 +1,4 @@
+name: "Sulphuric Ore (Wall)"
+type: StaticWall
+itemDrop: sulphur
+variants: 3
