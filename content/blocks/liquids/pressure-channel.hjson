@@ -6,7 +6,7 @@ requirements: [
   cement/2
 ]
 health: 65
-//junctionReplacement: pressure-junction
+junctionReplacement: pressure-junction
 //rotBridgeReplacement: pressure-bridge
 underBullets: true
 solid: false
