@@ -1,0 +1,19 @@
+type: LiquidRouter
+name: Pressure Router
+description: Separates inputted liquid from conduits into three directions.
+size: 1
+solid: false
+underBullets: true
+health: 65
+liquidPadding: 2
+liquidCapacity: 30
+category: liquid
+squareSprite: false
+research: pressure-junction
+requirements: [
+  cement/5
+]
+buildCostMultiplier: 2
+researchCost: [
+  cement/25
+]
