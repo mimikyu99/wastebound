@@ -1,0 +1,12 @@
+name: Dichromate
+description: A mixture created with Sulphuric Acid and Chromium. Can be used as a coolant.
+flammability: 0
+temperature: 0.5
+heatCapacity: 0.8
+viscosity: 0.3
+explosiveness: 0
+color: dc9860
+//effect: freezing
+research: {
+  parent: toxic-water
+}
