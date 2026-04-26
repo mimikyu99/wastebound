@@ -13,5 +13,5 @@ research: bituminous-burner
 requirements: [
   indium/5
 ]
-laserColor1: d9e0a2ff
-laserColor2: cfbe70ff
+laserColor1: ffffff
+laserColor2: fcf0a8
