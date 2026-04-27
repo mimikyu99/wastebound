@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Dichromate Passivator
+description: Mixes Chromium and Sulphuric Acid to produce Dichromate. Requires power.
+size: 2
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 25
+craftTime: 120
+outputLiquid: dichromate/0.3
+consumes: {
+  liquids: [
+    sulphuric-acid/0.3
+  ]
+  items: [
+    chromium/2
+  ]
+}
+category: liquid
+research: water-purifier
+requirements: [
+  indium/70
+  cement/60
+  osmium/50
+  sulphur/40
+  chromium/20
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidTile
+      drawLiquid: dichromate
+      padding: 1.5
+      alpha: 0.5
+    }
+  ]
+}
+researchCostMultiplier: 0.2
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.1
