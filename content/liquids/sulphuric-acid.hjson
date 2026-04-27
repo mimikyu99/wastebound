@@ -1,0 +1,9 @@
+name: Sulphuric Acid
+description: An extremely corrosive acid that can be used as ammo or be further processed.
+flammability: 0
+explosiveness: 0
+color: 6c9977
+//effect: 
+research: {
+  parent: toxic-water
+}
