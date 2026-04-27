@@ -15,6 +15,7 @@ consumes: {
   items: [
     chromium/2
   ]
+  power: 0.5
 }
 category: liquid
 research: water-purifier
