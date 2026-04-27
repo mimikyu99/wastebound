@@ -1,0 +1,16 @@
+type: DirectionLiquidBridge
+name: Pressure Bridge
+description: Allows flow of liquid across solid terrain.
+size: 1
+health: 65
+range: 4
+requirements: [
+  cement/5
+]
+category: liquid
+squareSprite: false
+buildCostMultiplier: 1.5
+research: pressure-router
+researchCost: [
+  cement/18
+]
