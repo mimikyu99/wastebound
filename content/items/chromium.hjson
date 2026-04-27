@@ -1,0 +1,7 @@
+name: Chromium
+description: A hard to extract material that can be used in advanced building and can be processed into Dichromate.
+hardness: 4
+buildable: true
+explosiveness: 0
+radioactivity: 0
+color: ffcf6d
