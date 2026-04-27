@@ -15,6 +15,7 @@ consumes: {
   items: [
     sulphur/4
   ]
+  power: 0.25
 }
 category: liquid
 research: water-purifier
