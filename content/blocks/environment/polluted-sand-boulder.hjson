@@ -1,0 +1,4 @@
+type: Prop
+name: Polluted Sand Boulder
+variants: 3
+breakSound: rock-crush
