@@ -17,7 +17,7 @@ consumes: {
   ]
   power: 0.25
 }
-category: liquid
+category: crafting
 research: water-purifier
 requirements: [
   indium/90
