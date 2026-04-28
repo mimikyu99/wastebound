@@ -1,0 +1,4 @@
+type: Prop
+name: Irradiated Rock Boulder
+variants: 3
+breakSound: rock-crush
