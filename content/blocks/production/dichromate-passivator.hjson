@@ -17,7 +17,7 @@ consumes: {
   ]
   power: 0.5
 }
-category: liquid
+category: crafting
 research: water-purifier
 requirements: [
   indium/70
@@ -33,7 +33,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: dichromate
       padding: 1.5
-      alpha: 0.5
+      alpha: 0.7
     }
   ]
 }
