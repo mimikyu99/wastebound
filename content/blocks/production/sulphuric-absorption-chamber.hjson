@@ -45,8 +45,8 @@ requirements: [
     }
     {
       type: DrawFlame
-      flameColor: ffc999
-      flameRadius: 7.5
+      flameColor: 90e4bb
+      flameRadius: 4.5
       flameRadiusMag: 2.5
       top: sulphuric-absorption-chamber
     }
