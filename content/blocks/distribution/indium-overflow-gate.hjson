@@ -1,0 +1,15 @@
+type: OverflowGate
+size: 1
+health: 65
+name: Indium Overflow Gate
+description: 
+requirements: [
+  indium/8
+]
+category: distribution
+squareSprite: false
+research: indium-duct
+researchCost: [
+  01a-01-item-cobalt/40
+  01a-02-item-nickel/20
+]
