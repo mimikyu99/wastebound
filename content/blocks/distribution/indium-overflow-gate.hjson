@@ -2,7 +2,7 @@ type: OverflowGate
 size: 1
 health: 65
 name: Indium Overflow Gate
-description: 
+description: Outputs items to the side if the front is blocked.
 requirements: [
   indium/8
 ]
