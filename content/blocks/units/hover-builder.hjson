@@ -12,12 +12,12 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: nettle
+    unit: float
     requirements: [
       indium/40
       cement/30
     ]
-    time: 1500
+    time: 1000
   }
 ]
 consumes: {
