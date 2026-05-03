@@ -4,6 +4,9 @@ description: Transports items utilizing a mix of gravity and pressure.
 category: distribution
 alwaysUnlocked: true
 research: core-flux
+researchCost:[
+  indium/5
+]
 speed: 4
 health: 45
 bridgeReplacement: indium-bridge
