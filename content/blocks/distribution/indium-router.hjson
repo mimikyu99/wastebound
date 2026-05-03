@@ -11,4 +11,6 @@ requirements: [
 squareSprite: false
 category: distribution
 research: indium-confluence
-researchCostMultiplier: 0.5
+researchCost:[
+  indium/30
+]
