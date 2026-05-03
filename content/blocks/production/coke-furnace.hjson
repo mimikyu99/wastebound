@@ -27,3 +27,18 @@ researchCost:[
 ]
 ambientSound: loopSmelter
 ambientSoundVolume: 0.08
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
