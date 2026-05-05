@@ -1,0 +1,43 @@
+type: GenericCrafter
+name: Coke Furnace
+description: Burns Bituminous Coal to produce Coke.
+size: 2
+health: 250
+squareSprite: false
+craftEffect: blockExplosionSmoke
+outputItems: [
+  coke/1
+]
+consumes: {
+  power: 1
+  items: [
+    bituminous-coal/2
+  ]
+}
+craftTime: 90
+category: crafting
+requirements: [
+  indium/50
+  cement/30
+]
+research: coke-furnace
+researchCost:[
+  indium/300
+  cement/200
+]
+ambientSound: loopSmelter
+ambientSoundVolume: 0.08
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      flameColor: f9d896
+      flameRadius: 4.5
+      flameRadiusMag: 1
+    }
+  ]
+}
