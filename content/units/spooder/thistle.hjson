@@ -9,7 +9,7 @@ legExtension: -1
 legMoveSpace: 2
 hovering: false
 legCount: 4
-legLength: 12
+legLength: 18
 legSpeed: 0.2
 legForwardScl: 0.62
 outlineColor: 0f1718
