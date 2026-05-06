@@ -6,7 +6,7 @@ health: 640
 armor: 3
 flying: false
 rotateSpeed: 3
-legExtension: -7
+legExtension: -7.5
 legMoveSpace: 0.4
 hovering: false
 legGroupSize: 3
