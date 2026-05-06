@@ -10,7 +10,7 @@ legExtension: -7.5
 legMoveSpace: 0.4
 hovering: false
 legGroupSize: 3
-legCount: 6
+legCount: 4
 legLength: 28
 legSpeed: 0.2
 legForwardScl: 0.62
