@@ -24,11 +24,9 @@ consumes: {
   lithate/20
   ]
 }
-research: {
-  parent: mech-builder
-  requirements:[
+research: mech-builder
+researchCost:[
     indium/800
     cement/600
     lithate/400
-   ]
-}
+]
