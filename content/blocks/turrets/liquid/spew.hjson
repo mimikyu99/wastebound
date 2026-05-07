@@ -36,7 +36,7 @@ ammoTypes: {
     lifetime: 40
     knockback: 0.5
     orbSize: 2
-    status: radioactive
+    status: status-irradiated
     statusDuration: 120
     damage: 0
     layer: 98
@@ -50,7 +50,7 @@ ammoTypes: {
     speed: 3
     lifetime: 40
     knockback: 0.7
-    status: acid-corroding
+    status: status-corroding
     orbSize: 2
     statusDuration: 180
     damage: 5
