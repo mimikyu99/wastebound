@@ -1,0 +1,65 @@
+type: LiquidTurret
+name: Spew
+description: Shoots streams of liquid, pushing back enemies.
+size: 3
+reload: 60
+hasLiquids: true
+liquidCapacity: 35
+outlineColor: 0f1718
+recoil: 0
+category: turret
+loopSound: none
+chargeSound: none
+shootSound: shootRetusa
+research: dopple
+range: 90
+requirements: [
+  indium/100
+  cement/80
+  lithate/50
+]
+shoot: {
+  shots: 24
+  spread: 1
+  shotDelay: 0.8
+  firstShotDelay: 60
+}
+velocityRnd: 0.14
+inaccuracy: 12
+ammoTypes: {
+  toxic-water: {
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: toxic-water
+    speed: 3
+    lifetime: 40
+    knockback: 0.5
+    orbSize: 2
+    status: radioactive
+    statusDuration: 120
+    damage: 0
+    layer: 98
+    puddleSize: 8
+  }
+  sulphuric-acid: {
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: sulphuric-acid
+    speed: 3
+    lifetime: 40
+    knockback: 0.7
+    status: acid-corroding
+    orbSize: 2
+    statusDuration: 180
+    damage: 5
+    layer: 98
+    puddleSize: 8
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: wastebound-
+}
+squareSprite: false
