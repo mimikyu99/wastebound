@@ -4,13 +4,12 @@ type: naval
 // change to your unit's name 
 name: Fission
 outlineColor: 0f1718
-speed: 0.7
+speed: 1.2
 drag: 0.13
 // hitSize 8 is one tile iirc, not sure
 hitSize: 16
 health: 750
 accel: 0.4
-rotateSpeed: 3
 rotateToBuilding: false
 // faceTarget means it turns the whole unit towards anything it attacks. Ships usually don't do that and only their weapons turn towards enemies
 faceTarget: false
@@ -20,10 +19,10 @@ armor: 4
 mineTier: 1.5
 mineWalls: true
 mineFloor: true
-mineSpeed: 12
-itemCapacity: 60
+mineSpeed: 8
+itemCapacity: 30
 buildSpeed: 3
-rotateSpeed: 4
+rotateSpeed: 6
 coreUnitDock: true
 
 weapons: [
