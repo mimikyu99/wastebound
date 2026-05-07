@@ -4,7 +4,7 @@ description: Takes advantage of the unstable terrain to extract basic resources 
 size: 3
 category: production
 hasLiquids: false
-hardnessDrillMultiplier: 40
+//hardnessDrillMultiplier: 40
 drillTime: 580
 hasPower: false
 tier: 3
