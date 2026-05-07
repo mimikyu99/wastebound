@@ -44,14 +44,14 @@ mesh: [
     
   }
   {
-    //radioactive bs
+    //red mud
     type: NoiseMesh
     planet: vastis
     seed: 69
     scale: 0.42
     divisions: 4
-    color1: 506b58
-    color2: 283d35
+    color1: 60352a
+    color2: 281119
     radius: 1.212
     octaves: 4
     persistence: 1
@@ -108,7 +108,7 @@ cloudMesh: [
    planet: vastis
    speed: 1.21
    radius: 0.15
-   divisions: 4
+   divisions: 5
    coarseness: 0.42
    color: 8dd89140
    octaves: 3
@@ -121,7 +121,7 @@ cloudMesh: [
    planet: vastis
    speed: 1.01
    radius: 0.2
-   divisions: 4
+   divisions: 5
    coarseness: 0.42
    color: 8dd89140
    octaves: 3
