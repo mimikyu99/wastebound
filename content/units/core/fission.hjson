@@ -22,7 +22,7 @@ mineFloor: true
 mineSpeed: 8
 itemCapacity: 30
 buildSpeed: 3
-rotateSpeed: 30
+rotateSpeed: 90
 coreUnitDock: true
 
 weapons: [
