@@ -9,10 +9,10 @@ outlineColor: 0f1718
 recoil: 1
 category: turret
 loopSound: none
-chargeEffect: lightningCharge
+chargeEffect: lancerLaserCharge
 chargeSound: chargeLancer
 shootSound: shootRetusa
-shootEffect: shootSmokeSquareSparse
+shootEffect: colorSpark
 shootColor:7c7c7c39
 research: dopple
 range: 90
