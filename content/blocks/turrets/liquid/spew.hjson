@@ -6,7 +6,7 @@ reload: 60
 hasLiquids: true
 liquidCapacity: 35
 outlineColor: 0f1718
-recoil: 0
+recoil: 1
 category: turret
 loopSound: none
 chargeEffect: lightningCharge
