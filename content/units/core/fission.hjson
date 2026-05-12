@@ -19,10 +19,10 @@ armor: 4
 mineTier: 1.5
 mineWalls: true
 mineFloor: true
-mineSpeed: 8
+mineSpeed: 12
 itemCapacity: 30
 buildSpeed: 3
-rotateSpeed: 90
+rotateSpeed: 5
 coreUnitDock: true
 
 weapons: [
@@ -60,6 +60,7 @@ weapons: [
       trailLength: 8
       trailWidth: 1.5
       hitEffect: flakExplosion
+      buildingDamageMultiplier: 0.01
       despawnEffect: blockExplosionSmoke
     }
   }
@@ -88,6 +89,7 @@ weapons: [
       pierce: false
       shrinkX: 0
       shrinkY: 0
+      buildingDamageMultiplier: 0.01
     }
   }
 ]
