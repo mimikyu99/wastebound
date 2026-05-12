@@ -1,0 +1,4 @@
+name: "Chromium Ore (Wall)"
+type: StaticWall
+itemDrop: chromium
+variants: 3
