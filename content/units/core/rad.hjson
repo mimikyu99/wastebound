@@ -10,7 +10,7 @@ drag: 0.13
 hitSize: 10
 health: 300
 accel: 0.4
-rotateSpeed: 6
+rotateSpeed: 18
 rotateToBuilding: false
 // faceTarget means it turns the whole unit towards anything it attacks. Ships usually don't do that and only their weapons turn towards enemies
 faceTarget: false
