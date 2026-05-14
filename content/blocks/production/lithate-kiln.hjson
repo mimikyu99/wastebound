@@ -1,22 +1,23 @@
 type: GenericCrafter
 name: Lithate Kiln
-description: Smelts Indium and Coke to produce Lithate. Requires power and water.
+description: Smelts Sand, Indium and Coke to produce Lithate. Requires power and water.
 size: 2
 health: 250
 squareSprite: false
-craftEffect: blockExplosionSmoke
+craftEffect: plasticburn
 outputItems: [
-  lithate/2
+  lithate/1
 ]
 consumes: {
   power: 1
   items: [
+    polluted-sand/1
     indium/2
     coke/2
   ]
    liquid: water/0.3
 }
-craftTime: 90
+craftTime: 30
 category: crafting
 requirements: [
   indium/90
