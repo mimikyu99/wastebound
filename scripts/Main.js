@@ -1,39 +1,56 @@
 Events.on(ClientLoadEvent, () => {
-    // 1. Fetch your mod's texture asset safely
+    // Safely look up the modded texture region
     const bgTexture = Core.atlas.find("wastebound-menu-bg");
 
     if (!bgTexture || !bgTexture.found) {
-        Log.err("[WASTEBOUND] fix yo shii dawg");
+        Log.err("[WASTEBOUND] fix yo shi gng!");
         return;
     }
 
-    // 2. Properly subclass MenuRenderer to prevent Java engine crashes
-    Vars.menuRenderer = extend(MenuRenderer, {
-        render() {
-            // Clear frame artifacts
-            Draw.clear(Color.black);
+    // Use a short delay to override the menu renderer after the engine completes initialization
+    Timer.schedule(() => {
+        Vars.menuRenderer = extend(MenuRenderer, {
+            render() {
+                // Clear any graphics leftovers from the viewport frame
+                Draw.clear(Color.black);
 
-            // Establish the draw matrix using current window resolution
-            const screenWidth = Core.graphics.getWidth();
-            const screenHeight = Core.graphics.getHeight();
-            Draw.proj(0, 0, screenWidth, screenHeight);
+                // Re-calculate view scaling based on current window constraints
+                const screenWidth = Core.graphics.getWidth();
+                const screenHeight = Core.graphics.getHeight();
+                Draw.proj(0, 0, screenWidth, screenHeight);
 
-            // Fetch texture dimensions
-            const imgWidth = bgTexture.width;
-            const imgHeight = bgTexture.height;
+                // Process aspect-ratio protection scaling
+                const imgWidth = bgTexture.width;
+                const imgHeight = bgTexture.height;
 
-            // Aspect ratio calculation to avoid stretching
-            const screenRatio = screenWidth / screenHeight;
-            const imgRatio = imgWidth / imgHeight;
+                const screenRatio = screenWidth / screenHeight;
+                const imgRatio = imgWidth / imgHeight;
 
-            let drawWidth = screenWidth;
-            let drawHeight = screenHeight;
+                let drawWidth = screenWidth;
+                let drawHeight = screenHeight;
 
-            if (screenRatio > imgRatio) {
-                drawHeight = screenWidth / imgRatio;
-            } else {
-                drawWidth = screenHeight * imgRatio;
+                if (screenRatio > imgRatio) {
+                    drawHeight = screenWidth / imgRatio;
+                } else {
+                    drawWidth = screenHeight * imgRatio;
+                }
+
+                // Render the image centered relative to the screen layout
+                Draw.rect(
+                    bgTexture, 
+                    screenWidth / 2, 
+                    screenHeight / 2, 
+                    drawWidth, 
+                    drawHeight
+                );
+
+                Draw.flush();
             }
+        });
+        
+        Log.info("[WASTEBOUND] MenuRenderer successfully forced over vanilla assets.");
+    }, 0.2); // Delays execution by 0.2 seconds to allow the engine to settle
+});
 
             // Draw the texture centered onto the coordinate grid
             Draw.rect(
