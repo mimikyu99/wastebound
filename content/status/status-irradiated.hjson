@@ -1,5 +1,5 @@
 name: Irradiated
 damage: 0.2
 speedMultiplier: 0.7
-damageMultiplier: 0.9
+damageMultiplier: 1.2
 reloadMultiplier: 0.9
