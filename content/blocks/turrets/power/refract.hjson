@@ -27,7 +27,7 @@ shootType: {
   type: ContinuousLaserBulletType
   length: 120
   damage: 9
-  width: 2
+  width: 3
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
