@@ -84,9 +84,10 @@ weapons: [
     y: -1
     mirror: false
     name: value-lazer
+    shootY: -1
     continuous: true
     alwaysContinuous: true
-    rotate: false
+    rotate: true
     ejectEffect: none
     shootSound: beamHeal
     bullet: {
