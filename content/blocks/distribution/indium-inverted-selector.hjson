@@ -1,0 +1,14 @@
+type: Sorter
+name: Indium Inverted Selector
+description: If an inputted item matches the selected item it moves to the sides, otherwise it gets outputted to the front.
+category: distribution
+research: indium-selector
+invert: true
+requirements: [
+  indium/4
+  cement/2
+]
+researchCost:[
+  indium/80
+  cement/30
+]
