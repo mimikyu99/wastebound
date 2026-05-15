@@ -1,0 +1,49 @@
+type: ContinuousTurret
+name: Refract
+description: Fires a concentrated beam of pure power, melting whatever blocks its path.
+size: 3
+category: turret
+research:{
+  parent: root
+  requirements:[
+    indium/2600
+    cement/1900
+    lithate/1500
+    osmium/800
+  ]
+}
+requirements: [
+  indium/240
+  cement/140
+  lithate/90
+  osmium/50
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: wastebound-
+}
+outlineColor: 0f1718
+shootType: {
+  type: ContinuousLaserBulletType
+  length: 120
+  damage: 9
+  width: 2
+  incendChance: 0
+  incendAmount: 0
+  incendSpread: 0
+  status: status-corroding
+  statusDuration: 180
+  colors: [385949, 537f5b, a0b992, ddecb8, fffde3]
+  shake: 0.2
+}
+range: 120
+shootSound: none
+loopSound: beamLustre
+loopSoundVolume: 1
+shootWarmupSpeed: 0.1
+rotateSpeed: 1.8
+shootY: 0.5
+consumes: {
+  power: 6
+}
+rotate: false
