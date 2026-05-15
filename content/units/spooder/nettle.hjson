@@ -1,6 +1,6 @@
 type: legs
 name: Nettle
-description: A small and relatively nimble "spider" with two legs. Shoots bullets at enemies.
+description: A small and relatively nimble spooder. Shoots bullets at enemies.
 speed: 1
 health: 190
 armor: 1
@@ -35,7 +35,7 @@ weapons: [
   
     bullet: {
       lifetime: 35
-      speed: 3
+      speed: 7
       type: BasicBulletType
       width: 7
       height: 8
