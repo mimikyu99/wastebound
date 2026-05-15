@@ -1,0 +1,112 @@
+type: mech
+name: Value
+description: Fires homing missiles and a powerful laser at enemies. Cannot cross terrain.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.1
+outlineColor: 0f1718
+speed: 1
+rotateSpeed: 3
+accel: 0.09
+groundLayer: 60
+health: 580
+armor: 6
+hitSize: 14
+canDrown: false
+researchCostMultiplier: 1.5
+//research: {
+//  parent: 
+//  objectives: [
+    
+//  ]
+//}
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -7.6
+    interval: 4
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -7.6
+    rotation: -90
+    radius: 2.5
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  {
+    x: 5
+    y: 0
+    name: value-pew
+    mirror: true
+    
+    alternate: true
+    reload: 30
+    rotate: true
+    shootSound: shootMissile
+    inaccuracy: 40
+    shoot: {
+      shots: 4
+      shotDelay: 5
+    }
+    bullet: {
+      type: MissileBulletType
+    
+      speed: 2.5
+      lifetime: 50
+      homingDelay: 5
+      homingPower: 0.8
+      damage: 8
+      width: 6
+      height: 9
+      trailWidth: 1
+      trailLength: 4.4
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+    {
+    x: 0
+    y: -0.2
+    mirror: false
+    name: value-lazer
+    continuous: true
+    alwaysContinuous: true
+    rotate: true
+    ejectEffect: none
+    shootSound: beamHeal
+    bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
+      length: 65
+      width: 2.5
+      drawFlare: false
+      damageInterval: 15
+      damage: 12
+    
+      pierceArmor: false
+      pierceCap: 2
+      hitEffect: none
+      despawnEffect: none
+    }
+}
+    
+]
