@@ -1,0 +1,11 @@
+type: Sorter
+name: Indium Selector
+description: If an inputted item matches the selected item it moves forward, otherwise it gets outputted to the sides.
+category: distribution
+research: indium-router
+requirements: [
+  indium/4
+]
+researchCost:[
+  indium/60
+]
