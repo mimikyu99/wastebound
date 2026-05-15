@@ -9,8 +9,8 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.1
 outlineColor: 0f1718
-speed: 1
-rotateSpeed: 3
+speed: 1.25
+rotateSpeed: 3.8
 accel: 0.09
 groundLayer: 60
 health: 580
@@ -30,7 +30,7 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: -7.6
+    y: -8
     interval: 4
     minVelocity: 0.6
   }
@@ -38,7 +38,7 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -7.6
+    y: -8
     rotation: -90
     radius: 2.5
   }
@@ -48,7 +48,7 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   {
-    x: 5
+    x: 6.3
     y: 0
     name: value-pew
     mirror: true
@@ -81,12 +81,12 @@ weapons: [
   }
     {
     x: 0
-    y: -0.2
+    y: -1
     mirror: false
     name: value-lazer
     continuous: true
     alwaysContinuous: true
-    rotate: true
+    rotate: false
     ejectEffect: none
     shootSound: beamHeal
     bullet: {
@@ -96,11 +96,11 @@ weapons: [
       collidesGround: true
       type: ContinuousFlameBulletType
       colors: [b788d5, bf64ec, a0bcf5, d3fefe, ffffff]
-      length: 65
+      length: 45
       width: 2.5
       drawFlare: false
       damageInterval: 15
-      damage: 12
+      damage: 6
     
       pierceArmor: false
       pierceCap: 2
