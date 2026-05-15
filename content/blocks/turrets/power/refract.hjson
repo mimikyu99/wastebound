@@ -26,7 +26,7 @@ outlineColor: 0f1718
 shootType: {
   type: ContinuousLaserBulletType
   length: 120
-  damage: 9
+  damage: 18
   width: 3
   incendChance: 0
   incendAmount: 0
@@ -41,8 +41,8 @@ shootSound: none
 loopSound: beamLustre
 loopSoundVolume: 1
 shootWarmupSpeed: 0.1
-rotateSpeed: 1.8
-shootY: 0.5
+rotateSpeed: 2
+shootY: 0.8
 consumes: {
   power: 6
 }
