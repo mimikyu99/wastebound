@@ -8,10 +8,9 @@ squareSprite: false
 requirements: [
   indium/24
 ] 
-researchCostMultiplier: 0.05
   research:{
     parent: indium-wall
     requirements:[
-      indium/400
+      indium/80
     ]
   }
