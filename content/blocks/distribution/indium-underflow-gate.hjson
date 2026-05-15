@@ -1,0 +1,17 @@
+type: OverflowGate
+size: 1
+health: 65
+name: Indium Underflow Gate
+description: Outputs items to the front if the sides are blocked. ooo same as overflow but inverted...
+requirements: [
+  indium/8
+  cement/2
+]
+category: distribution
+invert: true
+squareSprite: false
+research: indium-overflow-gate
+researchCost: [
+  indium/80
+  cement/20
+]
