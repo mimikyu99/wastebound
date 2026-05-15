@@ -8,10 +8,9 @@ squareSprite: false
 requirements: [
   indium/6
 ] 
-researchCostMultiplier: 0.05
 research:{
   parent: core-flux
   requirements:[
-     indium/100
+     indium/20
   ]
 }
