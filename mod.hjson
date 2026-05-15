@@ -1,8 +1,10 @@
 name: "wastebound"
-description: "e"
-version: "v.0.03"
-author: "hog rider"
+description: "Welcome to Wastebound, a mod developed mostly alone that throws you into an irradiated named [#6d9676]Vastis[white].
+Try and survive as you research new tech and destroy enemy bases.
+[red]THIS MOD IS STILL HEAVILY WORK IN PROGRESS[white]"
+version: "v.0.1"
+author: "Jonathan Not Quite My Tempo"
 minGameVersion: 155
-displayName: "Wastebound"
-subtitle: "Now with 85000% more radiation!"
+displayName: "[#6d9676]Wastebound[white]"
+subtitle: "Now with [yellow]85000% more radiation!"
 repo: notquite-mytempo/wastebound
