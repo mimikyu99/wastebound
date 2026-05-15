@@ -42,7 +42,7 @@ weapons: [
       type: BasicBulletType
       width: 9
       height: 11
-      damage: 10
+      damage: 13
       pierceDamageFactor: 0
 // this makes it home in slightly after ¼ of a second  
       homingDelay: 15
@@ -75,7 +75,7 @@ weapons: [
       type: ArtilleryBulletType
       width: 15
       height: 15
-      damage: 20
+      damage: 30
       splashDamage: 10
       pierceDamageFactor: 0
       backColor: 855c4e
