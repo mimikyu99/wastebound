@@ -1,0 +1,32 @@
+type: Reconstructor
+size: 3
+health: 650
+configurable: false
+requirements: [
+  indium/240
+  cement/190
+  lithate/120
+]
+constructTime: 2400
+category: units
+upgrades: [
+    [
+    float,
+    value
+    ]
+  ]
+consumes: {
+  power: 4
+  liquid: water/0.6
+  items: [
+  indium/50
+  cement/40
+  lithate/35
+  ]
+}
+research: hover-builder
+researchCost:[
+    indium/750
+    cement/350
+    lithate/250
+]
