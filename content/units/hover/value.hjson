@@ -101,9 +101,9 @@ weapons: [
       width: 2.5
       drawFlare: false
       damageInterval: 15
-      damage: 6
+      damage: 15
     
-      pierceArmor: false
+      pierceArmor: true
       pierceCap: 2
       hitEffect: none
       despawnEffect: none
