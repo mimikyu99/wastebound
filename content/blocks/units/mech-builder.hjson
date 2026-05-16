@@ -7,7 +7,7 @@ configurable: false
 requirements: [
   indium/250
   cement/180
-  osmium/80
+  lithate/80
 ]
 category: units
 plans: [
