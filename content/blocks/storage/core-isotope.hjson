@@ -25,5 +25,5 @@ requirements:[
 unitType: fission
 health: 3450
 itemCapacity: 7500
-unitCapModifier: 16
+unitCapModifier: 24
 category: effect
