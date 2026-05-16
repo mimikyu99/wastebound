@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Cement Mixer
 description: Mixes Polluted Sand and Irradiated Rock to produce Cement.
 size: 3
-scaledHealth: 80
+health: 220
 squareSprite: false
 craftEffect: blockExplosionSmoke
 outputItems: [
