@@ -34,7 +34,7 @@ weapons: [
         minWarmup : 0.05
   
     bullet: {
-      lifetime: 35
+      lifetime: 9
       speed: 7
       type: BasicBulletType
       width: 7
