@@ -16,7 +16,7 @@ alwaysUnlocked: true
 unitType: rad
 health: 1650
 itemCapacity: 4500
-unitCapModifier: 8
+unitCapModifier: 14
 category: effect
 research: {
   planet: vastis
