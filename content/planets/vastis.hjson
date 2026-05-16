@@ -110,7 +110,7 @@ cloudMesh: [
    radius: 0.15
    divisions: 5
    coarseness: 0.42
-   color: 8dd89140
+   color: 62856940
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -162,7 +162,7 @@ atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
 sectorSeed: 14513
-bloom: false
+bloom: true
 visible: true
 generator:SerpuloPlanetGenerator
 atmosphereColor: 7d977f
