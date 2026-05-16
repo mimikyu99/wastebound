@@ -69,7 +69,7 @@ weapons: [
       lifetime: 35
       homingDelay: 5
       homingPower: 0.8
-      damage: 4
+      damage: 6
       width: 4
       height: 6
       trailWidth: 1
@@ -101,9 +101,9 @@ weapons: [
       width: 1
       drawFlare: false
       damageInterval: 15
-      damage: 4
+      damage: 7
     
-      pierceArmor: false
+      pierceArmor: true
       pierceCap: 1
       hitEffect: none
       despawnEffect: none
@@ -131,9 +131,9 @@ weapons: [
       width: 1
       drawFlare: false
       damageInterval: 15
-      damage: 4
+      damage: 7
     
-      pierceArmor: false
+      pierceArmor: true
       pierceCap: 1
       hitEffect: none
       despawnEffect: none
