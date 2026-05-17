@@ -7,11 +7,11 @@ reload: 8
 inaccuracy: 5
 shootSound: shootFlame
 researchCostMultiplier: 0.5
-range: 80
+range: 60
 shootY: 7
 outlineColor: 0f1718
-targetsGround: false
-targetsAir: true
+collidesGround: false
+collidesAir: true
 drawer: {
   type: DrawTurret
   basePrefix: wastebound-
@@ -23,12 +23,12 @@ ammoTypes: {
     lifetime: 20
     drawFlare: false
     hitColor: ffc9a2
-    damage: 12
-    knockback: 1.3
+    damage: 16
+    knockback: 0.1
     pierce: true
     pierceArmor: false
-    length: 80
-    width: 1.5
+    length: 60
+    width: 2
     colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
     shootEffect: shootSmallFlame
   }
