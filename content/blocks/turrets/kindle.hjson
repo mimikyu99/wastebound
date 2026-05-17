@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Kindle
+description: Ignites flammable materials to bring flying units up in flames.
+size: 2
+squareSprite: false
+reload: 8
+inaccuracy: 5
+shootSound: shoot-small-flame
+researchCostMultiplier: 0.5
+range: 80
+shootY: 7
+outlineColor: 0f1718
+drawer: {
+  type: DrawTurret
+  basePrefix: wastebound-
+}
+ammoTypes: {
+  bituminous-coal: {
+    ammoMultiplier: 4
+    type: ContinuousFlameBulletType
+    lifetime: 20
+    drawFlare: false
+    hitColor: ffc9a2
+    damage: 12
+    knockback: 1.3
+    pierce: true
+    pierceArmor: false
+    length: 80
+    width: 1.5
+    colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+  }
+}
+category: turret
+research: {
+   parent: root
+   objectives: [
+      root,
+      {
+         type: OnSector
+         //will be changed vv
+         preset: 01-wasteland
+      }
+   ]
+}
+requirements: [
+  indium/70
+  cement/50
+  lithate/30
+]
+rotate: false
