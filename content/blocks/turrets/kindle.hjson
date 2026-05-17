@@ -5,11 +5,13 @@ size: 2
 squareSprite: false
 reload: 8
 inaccuracy: 5
-shootSound: shoot-small-flame
+shootSound: shootFlame
 researchCostMultiplier: 0.5
 range: 80
 shootY: 7
 outlineColor: 0f1718
+targetsGround: false
+targetsAir: true
 drawer: {
   type: DrawTurret
   basePrefix: wastebound-
@@ -28,6 +30,7 @@ ammoTypes: {
     length: 80
     width: 1.5
     colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+    shootEffect: shootSmallFlame
   }
 }
 category: turret
