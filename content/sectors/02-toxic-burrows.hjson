@@ -1,0 +1,13 @@
+localizedName: Toxic Burrows
+difficulty: 1
+planet: vastis
+sector: 1
+research: {
+  parent: 01-wasteland
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 01-wasteland
+    }
+  ]
+}
