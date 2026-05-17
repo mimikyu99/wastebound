@@ -22,7 +22,6 @@ plans: [
 ]
 consumes: {
   power: 2
-  liquid: water/0.15
 }
 research: {
   parent: core-flux
